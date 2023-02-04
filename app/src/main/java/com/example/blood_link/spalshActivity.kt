@@ -25,7 +25,11 @@ class spalshActivity : AppCompatActivity() {
         img.startAnimation(ani)
 
         Handler().postDelayed({
-            startActivity(Intent(this@spalshActivity,MainActivity::class.java))
-        }, 3000)
+            startActivity(Intent(this@spalshActivity,aftersplash::class.java)
+
+            )
+            finish()
+        }, 2000)
+
     }
 }

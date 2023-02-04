@@ -4,15 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".spalshActivity">
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".aftersplash">
 
     <ImageView
-        android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:srcCompat="@drawable/lifeblood"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="251dp" />
+        android:layout_height="379dp"
 
+        android:src="@drawable/becomehero" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:outlineSpotShadowColor="#E91E63"
+        android:layout_height="52dp" />
 
 </LinearLayout>

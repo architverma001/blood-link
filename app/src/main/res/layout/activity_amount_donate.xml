@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Amount_donate">
+
+    <LinearLayout
+        android:padding="12dp"
+        android:textAllCaps="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please fill all the details"
+        android:textSize="38dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:gravity="center"
+        android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/edt_don_name"
+            android:padding="8dp"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Name"
+            android:layout_margin="8dp"
+            android:background="@drawable/background"
+            android:inputType="textPersonName"
+             />
+
+        <EditText
+            android:id="@+id/edt_don_age"
+            android:padding="8dp"
+            android:textSize="18dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="age"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edt_don_sex"
+            android:padding="8dp"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_margin="8dp"
+            android:background="@drawable/background"
+            android:hint="sex"
+            android:inputType="textPersonName"
+           />
+
+        <EditText
+            android:id="@+id/edt_don_address"
+            android:padding="8dp"
+            android:textSize="18dp"
+            android:background="@drawable/background"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Address" />
+
+        <EditText
+            android:id="@+id/edt_don_phone"
+            android:padding="8dp"
+            android:textSize="18dp"
+            android:layout_margin="8dp"
+
+            android:hint="phone"
+            android:background="@drawable/background"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edt_don_donated"
+            android:padding="8dp"
+            android:textSize="18dp"
+            android:layout_margin="8dp"
+
+            android:hint="Donated in L"
+            android:background="@drawable/background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edt_don_bloodgroup"
+            android:padding="8dp"
+            android:textSize="18dp"
+            android:layout_margin="8dp"
+
+            android:hint="Blood Group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:ems="10"
+            android:inputType="textPersonName"
+             />
+
+        <EditText
+            android:id="@+id/edt_don_disease"
+            android:padding="8dp"
+            android:textSize="18dp"
+            android:layout_margin="8dp"
+
+            android:hint="Any disease"
+            android:layout_width="match_parent"
+            android:background="@drawable/background"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+
+             />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:id="@+id/don_dess"
+            android:text="submit"
+            android:layout_margin="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

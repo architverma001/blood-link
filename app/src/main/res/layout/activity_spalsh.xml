@@ -4,13 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:gravity="center"
     tools:context=".spalshActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="154dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:foregroundGravity="center"
         app:srcCompat="@drawable/lifeblood"
         tools:layout_editor_absoluteX="154dp"
         tools:layout_editor_absoluteY="251dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BLOOD Link"
+        android:textStyle="bold"
+        android:textColor="#E10330"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
+
+
+</LinearLayout>
 </LinearLayout>
