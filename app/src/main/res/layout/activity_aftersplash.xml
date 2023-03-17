@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="#0b192f"
     tools:context=".aftersplash">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="379dp"
-
         android:src="@drawable/becomehero" />
 
     <ProgressBar

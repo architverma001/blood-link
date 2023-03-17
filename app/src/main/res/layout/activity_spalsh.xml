@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-
+    android:background="#0b192f"
     android:gravity="center"
     tools:context=".spalshActivity">
 
@@ -24,7 +24,7 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:foregroundGravity="center"
-        app:srcCompat="@drawable/lifeblood"
+        app:srcCompat="@drawable/blood_logo"
         tools:layout_editor_absoluteX="154dp"
         tools:layout_editor_absoluteY="251dp" />
     <TextView
@@ -33,6 +33,7 @@
         android:text="BLOOD Link"
         android:textStyle="bold"
         android:textColor="#E10330"
+
         android:layout_gravity="center"
         android:textSize="20dp"/>
 

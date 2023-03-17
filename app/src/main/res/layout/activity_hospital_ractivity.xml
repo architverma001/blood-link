@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+   android:background="#0b192f"
     tools:context=".Hospital_R_Activity">
 
 
@@ -14,17 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="-2dp"
-        android:layout_above="@+id/sub_data_btn"
         tools:listitem="@layout/hospital_d_item" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="You're Welcome "
-        android:fontFamily="cursive"
-        android:textSize="18dp"
-        android:gravity="end"
-        android:textColor="#4CAF50"
-        android:layout_alignParentBottom="true"
-        android:id="@+id/sub_data_btn"/>
+
 </RelativeLayout>

@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:background="#0b192f"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
 
 
@@ -11,32 +12,40 @@
     android:weightSum="99"
     tools:context=".AfterLoginDirectionpage">
 
-
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:elevation="6dp"
         android:layout_margin="8dp"
+
         app:cardCornerRadius="15dp"
         android:id="@+id/donate"
         android:layout_weight="33">
      <LinearLayout
          android:layout_width="match_parent"
-         android:background="@drawable/img"
+
+         android:background="#182a46"
          android:layout_height="match_parent"
          android:weightSum="100"
          android:orientation="vertical">
          <TextView
              android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:textSize="40dp"
+             android:layout_height="0dp"
+             android:textSize="30dp"
+             android:gravity="center"
+             android:textColor="@color/white"
+             android:layout_weight="20"
              android:text="Donate Now"
              android:textAppearance="@style/TextAppearance.AppCompat.Large"
              android:layout_gravity="center"
-             android:textStyle="italic|bold"
-             android:fontFamily="cursive"/>
+             />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="70"
 
-
+                android:layout_marginTop="8dp"
+                android:src="@drawable/donation_blood_png"/>
 
      </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -53,20 +62,29 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/img_1"
             android:orientation="vertical"
+            android:background="#182a46"
             android:weightSum="100">
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="20"
                 android:layout_gravity="center"
-                android:fontFamily="cursive"
+                android:textColor="@color/white"
                 android:text="Receive now"
+                android:gravity="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="40dp"
-                android:textStyle="italic|bold" />
+                android:textSize="30dp"
+           />
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="70"
+    android:layout_marginTop="8dp"
 
+    android:src="@drawable/receive"
+    />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -80,23 +98,33 @@
         app:cardCornerRadius="15dp"
         android:id="@+id/hospitals"
         android:layout_weight="33">
+
         <LinearLayout
+
             android:layout_width="match_parent"
-            android:background="@drawable/img_2"
             android:layout_height="match_parent"
-            android:weightSum="100"
-            android:orientation="vertical">
+            android:background="#182a46"
+            android:orientation="vertical"
+            android:weightSum="100">
+
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="40dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
                 android:text="Hospitals"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:layout_gravity="center"
-                android:textStyle="italic|bold"
-                android:fontFamily="cursive"/>
+                android:textSize="30dp"
+                android:gravity="center"
+                android:layout_weight="20"
+                />
 
-
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="70"
+                android:src="@drawable/awzhos" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>

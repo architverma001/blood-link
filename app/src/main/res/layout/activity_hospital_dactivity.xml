@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#0b192f"
     android:orientation="vertical"
     android:layout_height="wrap_content"
     tools:context=".Hospital_d_Activity">
@@ -16,14 +17,5 @@
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:layout_marginTop="0dp" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Thanks you "
-        android:fontFamily="cursive"
-        android:textSize="18dp"
-        android:gravity="end"
-        android:textColor="#4CAF50"
-        android:layout_alignParentBottom="true"
-        android:id="@+id/sub_data_btn"/>
+
 </RelativeLayout>

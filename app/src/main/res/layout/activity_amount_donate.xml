@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#182a46"
     tools:context=".Amount_donate">
 
     <LinearLayout
@@ -12,13 +13,17 @@
         android:textAllCaps="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#182a46"
         android:orientation="vertical">
 
     <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Please fill all the details"
         android:textSize="38dp"
+        android:textColor="@color/white"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:gravity="center"
         android:padding="12dp"/>
@@ -136,6 +141,8 @@
             android:layout_gravity="center"
             android:textSize="20dp"
             android:id="@+id/don_dess"
+            android:backgroundTint="#0df5e3"
+            android:textColor="@color/black"
             android:text="submit"
             android:layout_margin="8dp"/>
 
